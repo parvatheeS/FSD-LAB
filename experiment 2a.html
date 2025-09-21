@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Example</title>
+</head>
+<body>
+    <h1>Working with Tables in HTML</h1>
+    <p>
+        The <code>&lt;table&gt;</code> tag creates a table.  
+        The <code>&lt;tr&gt;</code> defines a row, <code>&lt;th&gt;</code> defines a header cell,  
+        and <code>&lt;td&gt;</code> defines a data cell.  
+        Attributes like <code>border</code>, <code>rowspan</code>, and <code>colspan</code>  
+        control the table’s appearance and structure.
+    </p>
+
+    <h2>Example Table:</h2>
+
+    <table border="2" cellpadding="10" cellspacing="0">
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Marks</th>
+            <th rowspan="2">Total</th>
+        </tr>
+        <tr>
+            <th>Math</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>85</td>
+            <td>90</td>
+            <td>175</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>78</td>
+            <td>88</td>
+            <td>166</td>
+        </tr>
+    </table>
+</body>
+</html>
